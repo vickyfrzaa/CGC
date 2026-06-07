@@ -2215,6 +2215,15 @@ img {
   .work-card.is-large {
     min-height: 560px;
   }
+
+  .fixed-contact-rail {
+    right: clamp(0.75rem, 1.4vw, 1.2rem);
+  }
+
+  .fixed-contact-rail a {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -2251,7 +2260,12 @@ img {
 
   .about-media {
     width: min(100%, 620px);
-    justify-self: start;
+    justify-self: center;
+    order: 2;
+  }
+
+  .about-copy {
+    order: 1;
   }
 
   .footer-grid,
@@ -2332,6 +2346,29 @@ img {
   .contact-copy h1 {
     font-size: clamp(6rem, 16vw, 10rem);
   }
+
+  .fixed-contact-rail {
+    top: 50%;
+    right: clamp(0.75rem, 1.5vw, 1.25rem);
+    bottom: auto;
+    transform: translateY(-50%);
+  }
+
+  .fixed-contact-rail a {
+    width: 38px;
+    height: 38px;
+    font-size: 0.65rem;
+  }
+
+  .fixed-contact-rail a:hover,
+  .fixed-contact-rail a:focus-visible {
+    transform: translateX(-4px);
+  }
+
+  .fixed-contact-logo img {
+    width: 23px;
+    height: 23px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -2349,26 +2386,27 @@ img {
   }
 
   .fixed-contact-rail {
-    top: auto;
-    right: 0.85rem;
-    bottom: 0.85rem;
-    grid-auto-flow: column;
-    transform: none;
+    top: 50%;
+    right: clamp(0.75rem, 1.6vw, 1.3rem);
+    bottom: auto;
+    transform: translateY(-50%);
+    gap: 0.45rem;
   }
 
   .fixed-contact-rail a {
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
+    font-size: 0.64rem;
   }
 
   .fixed-contact-rail a:hover,
   .fixed-contact-rail a:focus-visible {
-    transform: translateY(-3px);
+    transform: translateX(-3px);
   }
 
   .fixed-contact-logo img {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
   }
 
   .navbar-collapse {
@@ -2641,13 +2679,46 @@ img {
     padding-block: 64px;
   }
 
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
   .about-media {
-    width: calc(100% - 0.85rem);
+    width: 100%;
     aspect-ratio: 4 / 5;
+    justify-self: center;
+    margin-inline: auto;
+    order: 2;
+  }
+
+  .about-copy {
+    max-width: 100%;
+    order: 1;
   }
 
   .about-copy h2 {
-    font-size: clamp(3rem, 14vw, 4.7rem);
+    font-size: clamp(2.5rem, 12vw, 4rem);
+    margin-bottom: 1rem;
+  }
+
+  .about-role {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-note {
+    font-size: 0.88rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-body {
+    gap: 1rem;
+  }
+
+  .about-body p {
+    font-size: 0.9rem;
+    line-height: 1.6;
   }
 
   .about-meta {
