@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cinematic portfolio framework for a Director of Photography.">
+    <title>Chris | Director of Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <div class="preloader" aria-live="polite" aria-label="Loading portfolio" role="status">
+      <div class="preloader-panel">
+        <img class="preloader-logo" src="assets/img/loading-header.png" alt="Chris logo" width="1815" height="765">
+        <div class="preloader-copy">
+          <strong>Loading...</strong>
+          <span>Preparing the portfolio</span>
+        </div>
+        <span class="preloader-progress" aria-hidden="true"></span>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-3 px-lg-4">
+          <a class="navbar-brand" href="index.html" aria-label="Chris home">
+            <img src="assets/img/loading-header.png" alt="Chris logo" width="1815" height="765">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+              <li class="nav-item"><a class="nav-link" href="reels.html">Reels</a></li>
+              <li class="nav-item"><a class="nav-link" href="brand-films.html">Brand Films</a></li>
+              <li class="nav-item"><a class="nav-link" href="documentary.html">Documentary</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <aside class="fixed-contact-rail" aria-label="Quick contact links">
+      <a class="fixed-contact-logo" href="index.html" aria-label="Back to home">
+        <img src="assets/img/loading-header.png" alt="Chris logo" width="1815" height="765">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Open Instagram">
+        <i class="bi bi-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="mailto:hello@christoperhayes.com" aria-label="Send email">
+        <i class="bi bi-envelope" aria-hidden="true"></i>
+      </a>
+    </aside>
+
+    <main>
+      <section class="hero">
+        <video class="hero-media" autoplay muted loop playsinline preload="metadata" aria-label="Cinematic director of photography portfolio reel">
+          <source src="assets/vid/hero.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="hero-content container-fluid px-3 px-lg-4">
+          <div class="hero-info">
+            <div class="hero-facts">
+              <div class="hero-fact hero-fact-location">
+                <span>Location</span>
+                <p>Savannah, GA, USA</p>
+              </div>
+              <div class="hero-fact hero-fact-credentials">
+                <span>Credentials</span>
+                <p>Award Winning · DIRECTOR | DP</p>
+              </div>
+              <div class="hero-fact hero-fact-specialisms">
+                <span>Specialisms</span>
+                <p>Reels · Brand Films · Documentary</p>
+              </div>
+            </div>
+            <div class="hero-actions">
+              <a class="btn btn-light" href="reels.html">View Reels</a>
+              <a class="btn btn-outline-light" href="contact.html">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+        <a class="hero-scroll" href="#availability" aria-label="Scroll to availability section">Scroll</a>
+      </section>
+
+      <section class="availability-section" id="availability" data-aos="fade-up">
+        <div class="container-fluid px-3 px-lg-4">
+          <div class="row g-5 align-items-start">
+            <div class="col-lg-5 col-xl-4">
+              <div class="availability-copy" data-aos="fade-up">
+                <p class="availability-kicker">Available for hire</p>
+                <h2>
+                  <span>What</span>
+                  <span>Chris</span>
+                  <em>Shoots</em>
+                </h2>
+                <p>From short-form social content to polished brand stories, Chris works across four focused production lanes. Whatever the format, the approach is the same, every frame considered, every lighting decision intentional, every project a genuine collaboration.</p>
+                <p>Based internationally. Available to travel.</p>
+              </div>
+            </div>
+            <div class="col-lg-7 col-xl-8 availability-disciplines">
+              <div class="discipline-grid" data-aos="fade-up" data-aos-delay="180">
+                <article class="discipline-item" data-aos="fade-up" data-aos-delay="80">
+                  <span>01</span>
+                  <h3>Reels & Socials</h3>
+                  <p>Short-form videos for your business</p>
+                </article>
+                <article class="discipline-item" data-aos="fade-up" data-aos-delay="140">
+                  <span>02</span>
+                  <h3>Brand Films</h3>
+                  <p>Make your business stand out from others</p>
+                </article>
+                <article class="discipline-item" data-aos="fade-up" data-aos-delay="200">
+                  <span>03</span>
+                  <h3>Commercial</h3>
+                  <p>Showcasing your services in style</p>
+                </article>
+                <article class="discipline-item" data-aos="fade-up" data-aos-delay="260">
+                  <span>04</span>
+                  <h3>Documentary</h3>
+                  <p>Let your story speak for itself</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="horizontal-work-section" aria-labelledby="commercial-showcase-title" data-aos="fade-up">
+        <div class="container-fluid px-3 px-lg-4">
+          <div class="horizontal-work-header">
+            <div>
+              <h2 id="commercial-showcase-title">Commercial</h2>
+              <p>Advertising · Brand campaigns · Broadcast</p>
+            </div>
+            <div class="horizontal-work-hint" aria-hidden="true">
+              <span>Scroll</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="horizontal-work-viewport" data-auto-scroll aria-label="Commercial work carousel">
+          <div class="horizontal-work-track">
+            <article class="horizontal-work-card is-wide">
+              <a href="bc-hydro-powersmart.html">
+                <video autoplay muted loop playsinline preload="metadata" aria-label="Altera commercial video">
+                  <source src="assets/vid/Altera.mp4" type="video/mp4">
+                </video>
+                <div class="horizontal-work-kicker">Commercial</div>
+                <div class="horizontal-work-copy">
+                  <h3>Altera</h3>
+                </div>
+              </a>
+            </article>
+            <article class="horizontal-work-card">
+              <a href="work-detail.html">
+                <video autoplay muted loop playsinline preload="metadata" aria-label="Badger Rental commercial video">
+                  <source src="assets/vid/badger-rental.mp4" type="video/mp4">
+                </video>
+                <div class="horizontal-work-kicker">Commercial</div>
+                <div class="horizontal-work-copy">
+                  <h3>Badger Rental</h3>
+                </div>
+              </a>
+            </article>
+            <article class="horizontal-work-card">
+              <a href="work-detail.html">
+                <video autoplay muted loop playsinline preload="metadata" aria-label="Crossfit commercial video">
+                  <source src="assets/vid/crossfit.mp4" type="video/mp4">
+                </video>
+                <div class="horizontal-work-kicker">Commercial</div>
+                <div class="horizontal-work-copy">
+                  <h3>Crossfit</h3>
+                </div>
+              </a>
+            </article>
+            <article class="horizontal-work-card">
+              <a href="work-detail.html">
+                <video autoplay muted loop playsinline preload="metadata" aria-label="Landscape commercial video">
+                  <source src="assets/vid/landscape.mp4" type="video/mp4">
+                </video>
+                <div class="horizontal-work-kicker">Commercial</div>
+                <div class="horizontal-work-copy">
+                  <h3>Landscape</h3>
+                </div>
+              </a>
+            </article>
+            <article class="horizontal-work-card">
+              <a href="work-detail.html">
+                <video autoplay muted loop playsinline preload="metadata" aria-label="Myrick Marine commercial video">
+                  <source src="assets/vid/myrick-marine.mp4" type="video/mp4">
+                </video>
+                <div class="horizontal-work-kicker">Commercial</div>
+                <div class="horizontal-work-copy">
+                  <h3>Myrick Marine</h3>
+                </div>
+              </a>
+            </article>
+            <article class="horizontal-work-card">
+              <a href="work-detail.html">
+                <video autoplay muted loop playsinline preload="metadata" aria-label="Quality Coatings commercial video">
+                  <source src="assets/vid/quality-coatings.mp4" type="video/mp4">
+                </video>
+                <div class="horizontal-work-kicker">Commercial</div>
+                <div class="horizontal-work-copy">
+                  <h3>Quality Coatings</h3>
+                </div>
+              </a>
+            </article>
+            <article class="horizontal-work-card">
+              <a href="work-detail.html">
+                <video autoplay muted loop playsinline preload="metadata" aria-label="Summit Tree commercial video">
+                  <source src="assets/vid/summit-tree.mp4" type="video/mp4">
+                </video>
+                <div class="horizontal-work-kicker">Commercial</div>
+                <div class="horizontal-work-copy">
+                  <h3>Summit Tree</h3>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+
+        <div class="container-fluid px-3 px-lg-4">
+          <div class="horizontal-work-footer">
+            <a class="text-link" href="reels.html">View all commercial work</a>
+            <span>7 projects shown</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block" data-aos="fade-up">
+        <div class="container-fluid px-3 px-lg-4">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Featured Work</p>
+            <h2>Selected films and campaigns</h2>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card is-large" data-aos="fade-up" data-aos-delay="80">
+              <a href="work-detail.html">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80" alt="Coastal fashion campaign frame">
+                <div class="work-card-body">
+                  <span>Commercial</span>
+                  <h3>The Journey</h3>
+                </div>
+              </a>
+            </article>
+            <article class="work-card" data-aos="fade-up" data-aos-delay="140">
+              <a href="work-detail.html">
+                <img src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?auto=format&fit=crop&w=1000&q=80" alt="Camera equipment in dramatic light">
+                <div class="work-card-body">
+                  <span>Documentary</span>
+                  <h3>In Focus</h3>
+                </div>
+              </a>
+            </article>
+            <article class="work-card" data-aos="fade-up" data-aos-delay="200">
+              <a href="work-detail.html">
+                <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=1000&q=80" alt="Concert stage lights and haze">
+                <div class="work-card-body">
+                  <span>Commercial</span>
+                  <h3>Willing to Fail</h3>
+                </div>
+              </a>
+            </article>
+            <article class="work-card" data-aos="fade-up" data-aos-delay="260">
+              <a href="work-detail.html">
+                <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1000&q=80" alt="Fashion fabric and garment detail">
+                <div class="work-card-body">
+                  <span>Commercial</span>
+                  <h3>Editorial South</h3>
+                </div>
+              </a>
+            </article>
+            <article class="work-card" data-aos="fade-up" data-aos-delay="320">
+              <a href="work-detail.html">
+                <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913?auto=format&fit=crop&w=1000&q=80" alt="Desert landscape at sunset">
+                <div class="work-card-body">
+                  <span>Documentary</span>
+                  <h3>Joshua Tree</h3>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsor-section" aria-label="Sponsorship logos" data-aos="fade-up">
+        <div class="container-fluid px-3 px-lg-4">
+          <p class="sponsor-kicker" data-aos="fade-up">Trusted by</p>
+          <div class="sponsor-marquee" data-aos="fade-up" data-aos-delay="140">
+            <div class="sponsor-track">
+              <a class="sponsor-logo" href="#" aria-label="Nike">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Wrangler">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wrangler%20Logo.svg" alt="Wrangler">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Vimeo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Vimeo_Logo.svg" alt="Vimeo">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Canon">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Canon_wordmark.svg" alt="Canon">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Sony">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg" alt="Sony">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Adobe">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Adobe_Systems_logo_and_wordmark.svg" alt="Adobe">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Nike">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Wrangler">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wrangler%20Logo.svg" alt="Wrangler">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Vimeo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Vimeo_Logo.svg" alt="Vimeo">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Canon">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Canon_wordmark.svg" alt="Canon">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Sony">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Sony_logo.svg" alt="Sony">
+              </a>
+              <a class="sponsor-logo" href="#" aria-label="Adobe">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Adobe_Systems_logo_and_wordmark.svg" alt="Adobe">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement" data-aos="fade-up">
+        <div class="container-fluid px-3 px-lg-4">
+          <div class="row justify-content-between align-items-end g-4">
+            <div class="col-lg-7" data-aos="fade-up">
+              <p class="eyebrow">Approach</p>
+              <h2>Images built from atmosphere, movement, and clear emotional stakes.</h2>
+            </div>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="160">
+              <p>Use this section for a concise creative positioning statement. Keep it direct, cinematic, and client-facing.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" data-aos="fade-up">
+        <div class="container-fluid px-3 px-lg-4">
+          <div class="about-layout">
+            <div class="about-media" data-aos="fade-up">
+              <img src="assets/img/sonyx6.webp" alt="Chris filming with cinema equipment">
+            </div>
+            <div class="about-copy" data-aos="fade-up" data-aos-delay="140">
+              <p class="about-kicker">About</p>
+              <h2>Christoper Hayes</h2>
+              <p class="about-role">Filmmaker. Director / DP.</p>
+              <p class="about-note">Stories built with light, rhythm, and a clear reason to be remembered.</p>
+              <div class="about-body">
+                <p>Chris creates social, documentary, commercial, and brand films for businesses that want their story to feel considered, cinematic, and clear.</p>
+                <p>His work balances visual polish with direct storytelling, shaping atmosphere, movement, and emotion around the purpose of each frame.</p>
+                <p>Based in Savannah and available for travel, he collaborates with brands, agencies, and founders who need films that feel refined without losing their human center.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container-fluid px-3 px-lg-4">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img class="footer-logo" src="assets/img/logo-header.png" alt="Christoper Hayes logo" width="1833" height="902">
+            <div class="footer-brand-copy">
+              <h2>Christoper Hayes</h2>
+              <p>Savannah-based Filmmaker</p>
+              <div class="footer-tags" aria-label="Filmmaking specialisms">
+                <span>Reels</span>
+                <span>Brand Films</span>
+                <span>Documentary</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h3>Site Map</h3>
+            <nav aria-label="Footer site map">
+              <a href="reels.html">Reels</a>
+              <a href="brand-films.html">Brand Films</a>
+              <a href="documentary.html">Documentary</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </div>
+          <div class="footer-links">
+            <h3>Follow</h3>
+            <nav aria-label="Social links">
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2026 GBRAND. All rights reserved.</p>
+          <a href="contact.html">Start a project</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
